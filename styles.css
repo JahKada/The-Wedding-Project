@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppings', sans-serif;
+}
+body {
+    background-color: #E9E8E6;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right bottom,rgba(0, 0, 0, 0.2),rgb(0, 0, 0, 0.5)) ,url(images/homepage-banner-img.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+}
+.btn-style{
+    background: #FFFFF8;
+    color: #000;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 500ms;
+}
+.btn-style:hover{
+    color: white;
+    background: #FCB2A9;
+}
+.container{
+    padding: 0 7%;
+}
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #F5D1CA;
+    text-align: center;
+    padding-top: 22%;
+}
+/* Footer  */
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
+}
+
+.active{
+    position: relative;
+}
+.active::after{
+    content: '';
+    background: #FCB2A9;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-us{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+.facilities{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.facilities-col p{
+    text-align: left;
+}
+
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.facilities-col p{
+    padding-bottom: 20px;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.cta{
+    margin: 100px auto;
+    width: 90%;
+    background-image: url(images/cta-image.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+/* Music Page Styling */
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(to right bottom,rgba(0, 0, 0, 0.2),rgb(0, 0, 0, 0.5)) ,url(images/music-page-banner.jpeg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+.about-us-page {
+    background-image: linear-gradient(to right bottom,rgba(0, 0, 0, 0.2),rgb(0, 0, 0, 0.5)) ,url(images/about-us-banner.jpeg);
+}
+.rsvp-page {
+    background-image: linear-gradient(to right bottom,rgba(0, 0, 0, 0.2),rgb(0, 0, 0, 0.5)) ,url(images/rsvp-page-banner.jpeg);
+    background-position: center;
+}
+.sub-header h1{
+    margin-top: 100px;
+    font-size: 30px;
+    color: #F5D0C9;
+}
+.about-page-section{
+    padding-top: 50px;
+}
+/* About Us Page Styling */
+.gallery{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'first first . .' 'first first . .';
+    margin: 20px 0;
+}
+.gallery div img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.gallery-img-1{
+    grid-area: first;
+}
+.container-text h2,h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #217071;
+    text-align: center;
+    padding-top: 3%;
+}
+
+/* RSVP Page Styling */
+.location{
+    width: 90%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 90%;
+    margin: auto;
+}
+.contact-us a{
+    text-decoration: none;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 10px;
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-col div .fa-solid{
+    font-size: 28px;
+    color: #FCB2A9;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p{
+    padding: 0;
+}
+.contact-col h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #F5D0C9;
+    box-sizing: border-box;
+}

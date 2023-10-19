@@ -1,0 +1,187 @@
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp3498844.jpg);
+  padding: 20px;
+  background-size: cover;
+  
+}
+ 
+
+
+
+  h1 {
+    font-family: 'cursive' , 'Brush Script MT';
+
+    font-size: 50px;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+  .HeaderExtra {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+    
+  }
+
+
+  .menu {
+    width: 70%;
+    background-color: #FCB2A9;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 7px solid #FCB2A9;
+    border-radius: 20px;
+  }
+  
+  hr {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+}
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: 'Brush Script MT', 'cursive';
+  }
+
+
+
+  .psw{
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+  }
+
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  .aaa {
+    padding: 50px;
+  }
+
+  fieldset {
+    border:0px;
+  }
+  
+  
+
+  .button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.2em solid #FCB2A9;
+    background-color: #F5D1CA ;
+    margin:0 0.3em 0.3em 0;
+    border-radius:10px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Georgia',sans-serif;
+    font-style:italic;
+    font-weight:300;
+    color:#000000;
+    text-align:center;
+    transition: all 0.2s;
+    width: 100%;
+    }
+    .button1:hover{
+    color:#000000;
+    background-color:#FCB2A9;
+    }
+    @media all and (max-width:30em){
+    .button1{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
+
+  
+    .button2{
+      display:inline-block;
+      padding:0.35em 1.2em;
+      border:0.1em solid black;
+      background-color: #F5D1CA ;
+    margin:0 0.3em 0.3em 0;
+    border-radius:10px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Georgia',sans-serif;
+    font-style:italic;
+    font-weight:300;
+    color:#000000;
+    text-align:center;
+    transition: all 0.2s;
+    width: 80%;
+      }
+      .button2:hover{
+      color:#000000;
+      background-color:#FCB2A9;
+      }
+      @media all and (max-width:30em){
+      .button2{
+      display:block;
+      margin:0.4em auto;
+      }
+      }
+
+      .button3{
+        display:inline-block;
+        padding:0.35em 1.2em;
+        border:0.1em solid black;
+        background-color: #F5D1CA ;
+    margin:0 0.3em 0.3em 0;
+    border-radius:10px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Georgia',sans-serif;
+    font-style:italic;
+    font-weight:300;
+    color:#000000;
+    text-align:center;
+    transition: all 0.2s;
+    width: 60%;
+        }
+        .button3:hover{
+        color:#000000;
+        background-color:#FCB2A9;
+        }
+        @media all and (max-width:30em){
+        .button3{
+        display:block;
+        margin:0.4em auto;
+        }
+        }
+  
+
+
+label {
+  text-align: center;
+}
+
+ label {
+  font-family:'Georgia',sans-serif;
+ }
